@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-image: url("https://cdn.discordapp.com/attachments/1129756108655960095/1193600594204696677/wallhaven-8586my.png"); /* Arkaplan resminizi buraya ekleyin */
+}
+
+.siyah-efekt {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white; /* Metin rengi */
+  padding: 50px;
+  height: 86vh;
+}
+
+.siyah-efekt::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Siyah arka plan rengi ve opaklık */
+  z-index: -1;
+}
+
+#kalan-sure {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
