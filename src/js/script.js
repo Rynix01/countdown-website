@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Hedef tarihi ayarlayın (yıl, ay (0-11), gün, saat, dakika, saniye)
-  var hedefTarih = new Date("2024-01-31T12:00:00");
+  var hedefTarih = new Date("2024-10-6T12:00:00");
 
   // Kalan süreyi hesaplayan fonksiyon
   function kalanSureyiHesapla() {
